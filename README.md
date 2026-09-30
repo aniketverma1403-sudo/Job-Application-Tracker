@@ -1,16 +1,37 @@
-# React + Vite
+# 🚀 JobTrack - SaaS Job Application Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+JobTrack is a modern, production-grade SaaS workspace built for developers and job seekers to manage, track, and optimize their career pipeline effortlessly. Designed with a clean UI, robust authentication, and dual-view tracking capabilities.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
 
-## React Compiler
+- **🔐 Secure Authentication System:** Fully validated Login and Sign-up modals with session persistence.
+- **📊 Real-time SaaS Dashboard:** Live calculated metrics for Total Applications, Active Interviews, Offers Received, and Rejections.
+- **📋 Dual-View Pipeline:** Toggle seamlessly between an advanced **Data Table View** (with inline status updates) and a visual **Kanban Board** (`Applied` → `Interview` → `Offer` → `Rejected`).
+- **🔍 Advanced Search & Filtering:** Filter records by status, search by company/position, and sort by date or company name with smart empty states.
+- **🛡️ Enterprise-Grade Form Validation:** Strict input sanitization, duplicate detection, length constraints, and URL format validation.
+- **🔔 Actionable Notifications:** Deep-linked notification drawer that connects alerts directly to specific job application details.
+- **🌙 Dark / Light Mode Support:** Persistent theme switcher with smooth color transitions.
+- **📱 Fully Mobile Responsive:** Optimized layout featuring a slide-over mobile navigation drawer and hamburger menu.
+- **💾 LocalStorage Persistence:** Robust local caching to ensure data and preferences remain secure across page refreshes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, Vite, JavaScript (ES6+)
+- **Styling:** Tailwind CSS (v4)
+- **Icons:** Lucide React
+- **Build Tool:** Vite
+
+---
+
+## 🚀 Getting Started & Local Installation
+
+To run this project locally on your machine, follow these simple steps:
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/YOUR_USERNAME/job-application-tracker.git](https://github.com/YOUR_USERNAME/job-application-tracker.git)
+cd job-application-tracker
