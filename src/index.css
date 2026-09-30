@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* Yeh line Tailwind v4 ko batati hai ki jab bhi html par 'dark' class lagegi, dark styles active ho jane chahiye */
+@custom-variant dark (&:where(.dark, .dark *));
